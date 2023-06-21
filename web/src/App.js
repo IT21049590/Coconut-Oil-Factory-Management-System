@@ -105,7 +105,6 @@ import UpdateVehicle from "./components/Transport/UpdateVehicle";
 import Report from "./components/Transport/Report";
 import Home from "./components/Transport/Home";
 
-<<<<<<< HEAD
 
 import mannagerLogin from './components/Supplier/mannagerLogin';
 
@@ -113,11 +112,6 @@ import mannagerLogin from './components/Supplier/mannagerLogin';
 // import mannagerLogin from "./components/Supplier/mannagerLogin";
 
 
-=======
-//Manager login
-import mannagerLogin from './components/Supplier/mannagerLogin';
-
->>>>>>> 88365df6e8d8a5431a3a2ef7803eb50626e6afe5
 //supplier
 //import SupHeader from './components/Supplier/Header';
 import AddCocoForm from './components/Supplier/AddCocoForm';
@@ -136,13 +130,10 @@ import ManagersView from './components/Supplier/ManagersSupplyView';
 import RequestCoco from "./components/Supplier/RequestCoco";
 import Logintest from "./components/Supplier/testlogin";
 
-<<<<<<< HEAD
 
 
 
 
-=======
->>>>>>> 88365df6e8d8a5431a3a2ef7803eb50626e6afe5
 //Staff Management 
 import OwnerDash from './components/Staff/DashBoard/OwnerDash';
 import AddEmployee from './components/Staff/OwnerManagement/AddEmployee';
@@ -160,10 +151,6 @@ import AttendancePost from './components/Staff/AttendanceManagement/AttendancePo
 import AttendanceEdit from './components/Staff/AttendanceManagement/AttendanceEdit';
 import ShowRoomPostDetails from './components/Staff/AttendanceManagement/ShowRoomPostDetails';
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 88365df6e8d8a5431a3a2ef7803eb50626e6afe5
 function App() {
   return (
 
@@ -295,15 +282,12 @@ function App() {
       <Route path="/coconutstock" component={CoconutStockList}></Route>
       <Route path="/coocnutstockupdate/:id" component={CoconutStockUpdate}></Route>
 
-<<<<<<< HEAD
       {/* Manufacture */}
       <Route path="/post" exact component={addPost}></Route>
       <Route path="/postDetails" component={postDetails}></Route>
       <Route path="/update/:id" component={updatePost}></Route>
       <Route path="/manuDash" component={manufactureDashboard}></Route>
 
-=======
->>>>>>> 88365df6e8d8a5431a3a2ef7803eb50626e6afe5
 
       {/* Staff Management */}
       <Route path="/staff_dash" component={OwnerDash}></Route>
